@@ -1,10 +1,11 @@
 .parent{
-  display:flex;
+  display: flex;
   flex-direction: row;
   border: 3px solid red;
 }
 .childone{
   border:3px solid blue;
+  text-align: center;
   padding:3%;
   margin:2%;
   width:30%;
@@ -24,4 +25,104 @@ img{
   padding:3%;
   margin:2%;
   width:70%;
+}
+@media only screen and (max-width:480px)
+{
+  .parent{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+  }
+  .childone{
+    border:3px solid blue;
+    text-align: center;
+    padding:3%;
+    margin:2%;
+    width:90%;
+    background-color: #FA7B62;
+    border-radius:10%;
+  }
+  img{
+    width:40%;
+    border:2px solid pink;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 7px 9px #000;
+  }
+  .childtwo
+  {
+    border:3px solid blue;
+    padding:3%;
+    margin:2%;
+    width:90%;
+    background-color: #FA7B62;
+  }
+}
+a{
+  word-wrap: break-word;
+}
+@media only screen and (max-width:720px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+  }
+  .childone{
+    border:3px solid blue;
+    padding:3%;
+    margin:2%;
+    width:90%;
+    background-color: #62D1FA;
+    border-radius:10%;
+  }
+  img{
+    width:40%;
+    border:2px solid pink;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 7px 9px #000;
+  }
+  .childtwo
+  {
+    border:3px solid blue;
+    padding:3%;
+    margin:2%;
+    width:90%;
+    background-color: #62D1FA;
+}
+}
+@media only screen and (max-width:1024px)
+{
+  .parent{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+  }
+  .childone{
+    border:3px solid blue;
+    text-align: center;
+    padding:3%;
+    margin:2%;
+    width:90%;
+    background-color:#FA6289 ;
+    border-radius:10%;
+  }
+  img{
+    width:40%;
+    border:2px solid pink;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 7px 9px #000;
+  }
+  .childtwo
+  {
+    border:3px solid blue;
+    padding:3%;
+    margin:2%;
+    width:90%;
+    background-color: #FA6289;
+}
 }
