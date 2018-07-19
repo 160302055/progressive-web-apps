@@ -1,10 +1,57 @@
 {"basics":{
+
   "name":"chandana",
   "phoneno":"+91-6309876534",
   "email":"talagadadeevichandana@gmail.com",
   "Address":"SRKR college Bhimavaram"
+
 },
+
 "CareerObjective":{
+
   "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization."
-}
+
+},
+
+"education":[
+
+
+  {
+  "degree":"BTech",
+  "institute":"SRKR college",
+  "data":["2016-2020","90%"]
+},
+
+  {
+    "degree":"Intermediate",
+    "institute":"Sri Chaitanya",
+    "data":["2014-2016","94.2%"]
+  },
+
+  {
+    "degree":"SSC",
+    "institute":"J.H.M(E.M) High School",
+    "data":["2013-2014","9.2"]
+  }
+
+
+],
+
+"skills":[
+
+
+  {
+    "title":"Language",
+    "data":["C","C++","Java","Python"]
+  },
+
+  {
+    "title":"Operating Systems",
+    "data":["SQL","mysql","Oracle"]
+  }
+
+
+],
+
+
 }
